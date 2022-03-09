@@ -5,4 +5,4 @@ sale = 0.6
 oldBread = float(input("Barras de pan que no son de hoy: "))
 print(
     "Precio total de pan: "+ str(oldBread*breadCost)+" \n"
-    "Descuento -> 60%: " + str((oldBread*breadCost)*sale) +" \n Total a pagar: "+ str((oldBread*breadCost) - (oldBread*breadCost)*sale))
+    "Descuento -> 60%: " + str((oldBread*breadCost)*sale) +" \nTotal a pagar: "+ str((oldBread*breadCost) - (oldBread*breadCost)*sale))
